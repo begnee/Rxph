@@ -9,112 +9,136 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div id="vid_background">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/R9gsvUTo2Y4?autoplay=1&mute=1&loop=1&playlist=R9gsvUTo2Y4&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cZx-u1MOeD8?autoplay=1&mute=1&loop=1&playlist=cZx-u1MOeD8&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ml6cofGA0fg?autoplay=1&mute=1&loop=1&playlist=ml6cofGA0fg&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ymYBoevDaBM?autoplay=1&mute=1&loop=1&playlist=ymYBoevDaBM&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EydDrFP6m1o?autoplay=1&mute=1&loop=1&playlist=EydDrFP6m1o&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aA6KK9Sz5vs?autoplay=1&mute=1&loop=1&playlist=aA6KK9Sz5vs&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nSsFmDCsa0c?autoplay=1&mute=1&loop=1&playlist=nSsFmDCsa0c&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rg6xNaG8mKU?autoplay=1&mute=1&loop=1&playlist=Rg6xNaG8mKU&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FoyvRVx85cE?autoplay=1&mute=1&loop=1&playlist=FoyvRVx85cE&start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <div id="description">
-        <h2>Rxph & Zenithtrox School</h2>
-        <div id="img_container">
-            <img id="rxph" class="img_presentations" src="assets/raph.png" alt="Raphaël 'RXPH' Lejeune" title="Raphaël 'RXPH' Lejeune">
-            <img id="zenithtrox" class="img_presentations right" src="assets/nono.png" alt="Noham 'ZENITHTROX' Saadoui" title="Noham 'ZENITHTROX' Saadoui">
-            <img id="img_selected" class="img_presentations right" src="" alt="" title="" onclick="resetimg()">
+    <header>
+        <span id="header_left">
+            <p>RXPH & ZENITHTROX - COACHING</p>
+        </span>
+        <span id="header_right">
+            <a href="https://discord.gg/D3HUere8zt" target="_blank" id="h_contact">Nous contacter</a>
+        </span>
+    </header>
+    <div id="part_1">
+        <div id="description">
+            <h2>Rxph & Zenithtrox School</h2>
+            <div id="img_container">
+                <img id="rxph" class="img_presentations" src="assets/raph.png" alt="Raphaël 'RXPH' Lejeune" title="Raphaël 'RXPH' Lejeune">
+                <img id="zenithtrox" class="img_presentations right" src="assets/nono.png" alt="Noham 'ZENITHTROX' Saadoui" title="Noham 'ZENITHTROX' Saadoui">
+                <img id="img_selected" class="img_presentations right" src="" alt="" title="" onclick="resetimg()">
+            </div>
+    
+            <p id="pics">
+                <img src="assets/image.png" alt="" onclick="imgclick.call(this)">
+                <img src="assets/image1.png" alt=""  onclick="imgclick.call(this)">
+                <img src="https://cdn.cultura.com/media/pim/TITELIVE/33_9782036021853_1_75.jpg" alt=""  onclick="imgclick.call(this)">
+                <img src="https://projetarcadie.com/sites/default/files/styles/large/public/bardella_livre.png?itok=fKoEozTG" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image2.png" alt=""  onclick="imgclick.call(this)">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gentle_Mates.jpg/800px-Gentle_Mates.jpg" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image3.png" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image4.png" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image5.png" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image6.png" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image7.png" alt=""  onclick="imgclick.call(this)">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFnYIW9CpczYXk44BAnE2qAzzttdnEo50VZdURzSl6dr4wLfsu" alt=""  onclick="imgclick.call(this)">
+                <img src="assets/image8.png" alt="" onclick="imgclick.call(this)">
+            </p>
+    
+            <div id="tags">
+                <p>Groupe privé</p>
+                <p>54 membres</p>
+                <p>49€ /mois</p>
+                <p>Par Rxph & Zenithtrox</p>
+            </div>
+    
+    
+            <p>
+                Nous vous aidons à progresser sur <a href="https://playvalorant.com/fr-fr/">VALORANT</a>, à l'aide d'un joueur très mécanique, <strong>Rxph</strong>, et notre In-Game Leader <strong>Zenithtrox</strong>. De plus, par son passé professionel chez <a href="https://www.gentlemates.com/fr">Gentle Mates</a>, <strong>Rxph</strong> pourra répondre à toutes vos questions sur la scène compétitive du jeu.
+            </p>
+            <p>
+                Vous aurez accès à :
+                <ul>
+                    <li>Une session coaching par semaine, <a href="https://playvalorant.com/fr-fr/">VALORANT</a> et IRL.</li>
+                    <li>Des vidéos réalisées par <strong>Rxph</strong> contenant des guides exclusifs vers le rank up.</li>
+                    <li>Un suivi de vos games par <strong>Rxph</strong> sur le long terme avec analyses.</li>
+                    <li>Une communication directe et 24/24 avec nos joueurs</li>
+                    <li>Des sessions agréables grâce à deux joueurs charismatiques et hors-normes.</li>
+                    <li>Des sessions d'apprentissage de l'anglais avec <strong>Zenithtrox</strong> afin de pouvoir mieux communiquer avec vos coéquipiers</li>
+                </ul>
+            </p>
+            <p>
+                Bonus (uniquement sous la tutelle de <strong>Rxph</strong>) :
+                <ul>
+                    <li>Développement personnel.</li>
+                    <li>Gestion de la santé mentale et musculation.</li>
+                    <li>Apprentissage de la discipline</li>
+                </ul>
+            </p>
         </div>
-
-        <p id="pics">
-            <img src="assets/image.png" alt="" onclick="imgclick.call(this)">
-            <img src="assets/image1.png" alt=""  onclick="imgclick.call(this)">
-            <img src="https://cdn.cultura.com/media/pim/TITELIVE/33_9782036021853_1_75.jpg" alt=""  onclick="imgclick.call(this)">
-            <img src="https://projetarcadie.com/sites/default/files/styles/large/public/bardella_livre.png?itok=fKoEozTG" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image2.png" alt=""  onclick="imgclick.call(this)">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gentle_Mates.jpg/800px-Gentle_Mates.jpg" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image3.png" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image4.png" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image5.png" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image6.png" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image7.png" alt=""  onclick="imgclick.call(this)">
-            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFnYIW9CpczYXk44BAnE2qAzzttdnEo50VZdURzSl6dr4wLfsu" alt=""  onclick="imgclick.call(this)">
-            <img src="assets/image8.png" alt="" onclick="imgclick.call(this)">
-        </p>
-
-        <div id="tags">
-            <p>Groupe privé</p>
-            <p>54 membres</p>
-            <p>49€ /mois</p>
-            <p>Par Rxph & Zenithtrox</p>
-        </div>
-
-
-        <p>
-            Nous vous aidons à progresser sur <a href="https://playvalorant.com/fr-fr/">VALORANT</a>, à l'aide d'un joueur très mécanique, <strong>Rxph</strong>, et notre In-Game Leader <strong>Zenithtrox</strong>. De plus, par son passé professionel chez <a href="https://www.gentlemates.com/fr">Gentle Mates</a>, <strong>Rxph</strong> pourra répondre à toutes vos questions sur la scène compétitive du jeu.
-        </p>
-        <p>
-            Vous aurez accès à :
-            <ul>
-                <li>Une session coaching par semaine, <a href="https://playvalorant.com/fr-fr/">VALORANT</a> et IRL.</li>
-                <li>Des vidéos réalisées par <strong>Rxph</strong> contenant des guides exclusifs vers le rank up.</li>
-                <li>Un suivi de vos games par <strong>Rxph</strong> sur le long terme avec analyses.</li>
-                <li>Une communication directe et 24/24 avec nos joueurs</li>
-                <li>Des sessions agréables grâce à deux joueurs charismatiques et hors-normes.</li>
-                <li>Des sessions d'apprentissage de l'anglais avec <strong>Zenithtrox</strong> afin de pouvoir mieux communiquer avec vos coéquipiers</li>
-            </ul>
-        </p>
-        <p>
-            Bonus (uniquement sous la tutelle de <strong>Rxph</strong>) :
-            <ul>
-                <li>Développement personnel.</li>
-                <li>Gestion de la santé mentale et musculation.</li>
-                <li>Apprentissage de la discipline</li>
-            </ul>
-        </p>
-        <p>
-            Nous vous aiderons donc à vous améliorer à la fois personnellement, comme mentalement ou même mécaniquement avec des scéances traning serieuses et poussées, semblables à celles des <a href="https://valorantesports.com/fr-FR/">VCT</a> que suivent M8 Natanks ou KC Aspas.
-        </p>        
+        <div id="right_blocks">
+            <div id="acheter">
+                <img src="assets/raph.png" alt="">
+                <div id="acheter_desc">
+                    <h5>Rxph & Zenithtrox School</h5>
+                    <p id="gris">skool.com/Rxph&Zenithtrox</p>
+                    <p>Nous vous aidons à progresser sur VALORANT</p>
+                    <table>
+                        <tr>
+                            <th>54</th>
+                            <th>7</th>
+                            <th>1</th>
+                        </tr>
+                        <tr>
+                            <th>Membres</th>
+                            <th>Online</th>
+                            <th>Admin</th>
+                        </tr>
+                    </table>  
+                    <a href="https://www.youtube.com/@zenithtrox-92" id="join" target="_blank">Nous rejoindre</a>
+                </div>
+            </div>
+            <div id="admin">
+                <img src="assets/chamber.png" alt="">
+                <div>
+                    <h5>Mille Gérald Perdir</h5>
+                    <p id="gris">Chef d’établissement HDF traileur/marathonien</p>
+                    <p><strong>Administrateur</strong></p>
+                    <a href="https://x.com/gmilleperdir?lang=fr" id="contact" target="_blank">Contact</a>
+                </div>
+            </div>
         
+        </div>
+    </div>
+        
+    <p id="p_part1">
+        Nous vous aiderons donc à vous améliorer à la fois personnellement, comme mentalement ou même mécaniquement avec des scéances traning serieuses et poussées, semblables à celles des <a href="https://valorantesports.com/fr-FR/">VCT</a> que suivent M8 Natanks ou KC Aspas.
+    </p>        
+    
+    
+    <div id="part_vids">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/u7kvv80K-NI?si=QSVBTiqK-qe5aHQz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8EnJcwehePA?si=AIvWo0v1Hq-Prrol" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aA6KK9Sz5vs?si=jFsuV0h5Rp_V-0xY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FoyvRVx85cE?si=GBZ7CaUp9zRfBpNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
-    <div id="right_blocks">
-        <div id="acheter">
-            <img src="assets/raph.png" alt="">
-            <div id="acheter_desc">
-                <h5>Rxph & Zenithtrox School</h5>
-                <p id="gris">skool.com/Rxph&Zenithtrox</p>
-                <p>Nous vous aidons à progresser sur VALORANT</p>
-                <table>
-                    <tr>
-                        <th>54</th>
-                        <th>7</th>
-                        <th>1</th>
-                    </tr>
-                    <tr>
-                        <th>Membres</th>
-                        <th>Online</th>
-                        <th>Admin</th>
-                    </tr>
-                </table>  
-                <a href="https://www.youtube.com/@zenithtrox-92" id="join" target="_blank">Nous rejoindre</a>
-            </div>
-        </div>
-        <div id="admin">
-            <img src="assets/chamber.png" alt="">
-            <div>
-                <h5>Mille Gérald Perdir</h5>
-                <p id="gris">Chef d’établissement HDF traileur/marathonien</p>
-                <p><strong>Administrateur</strong></p>
-                <a href="https://x.com/gmilleperdir?lang=fr" id="contact" target="_blank">Contact</a>
-            </div>
-        </div>
     
+    <h2 id="avis_h2">Avis</h2>
+    <div id="avis">
+        <div>
+            <p>Je me suis fait coacher par <strong>Rxph</strong> et <strong>Zenithtrox</strong>, et je suis ravi. <strong>Rxph</strong>, avec son expertise mécanique et son expérience compétitive, m’a offert des conseils précieux, tandis que <strong>Zenithtrox</strong>, grâce à sa vision stratégique et son approche humaine, m’a aidé à mieux communiquer et à gérer mes émotions. Leur pédagogie et leurs analyses m’ont permis de progresser à la fois en jeu et mentalement. Je les recommande à tous ceux qui veulent s’améliorer sur <a href="https://playvalorant.com/fr-fr/">VALORANT</a> et devenir une meilleure version d’eux-mêmes.</p>
+            <p class="p_nom">JoKo - Radiant</p>
+        </div>
+        <div>
+            <p>Je me suis fait coacher par <strong>Rxph</strong> et <strong>Zenithtrox</strong>, et je suis ravi. <strong>Rxph</strong>, avec son expertise mécanique et son expérience compétitive, m’a offert des conseils précieux, tandis que <strong>Zenithtrox</strong>, grâce à sa vision stratégique et son approche humaine, m’a aidé à mieux communiquer et à gérer mes émotions. Leur pédagogie et leurs analyses m’ont permis de progresser à la fois en jeu et mentalement. Je les recommande à tous ceux qui veulent s’améliorer sur <a href="https://playvalorant.com/fr-fr/">VALORANT</a> et devenir une meilleure version d’eux-mêmes.</p>
+            <p class="p_nom">Uub - Ascendant 3</p>
+        </div>
+        <div>
+            <p>Pour résumer le coaching, je le recommande à 100% des joueurs, mais seulement si vous êtes prêts à vous investir et à vraiment progresser. Après avoir passé plusieurs heures en coaching avec <strong>Rxph</strong> et <strong>Zenithtrox</strong>, je peux vous dire que le temps passe vite, et chaque minute est ultra bénéfique. Ils savent identifier aussi bien nos erreurs que nos points forts, et leur pédagogie est top. <strong>Rxph</strong> et <strong>Zenithtrox</strong> sont à l’écoute, prennent le temps de bien expliquer et savent s’adapter à chaque joueur. Dès la première session, on sent clairement la différence dans notre gameplay.</p>
+            <p class="p_nom">Pastèque - Platine 2</p>
+        </div>
+        <div>
+            <p>J'ai fait deux coachings avec <strong>Rxph</strong> et <strong>Zenithtrox</strong>, après les avoir découverts sur les réseaux sociaux. Ce qui m’a poussé à franchir le pas, c'est leur expérience et les coachings gratuits qu’ils proposaient. La manière dont ils analysaient les parties et m’aidaient à comprendre mes erreurs m’a convaincu. <br>Le premier coaching était une analyse VOD où ils m'ont donné des conseils sur mon placement, aussi bien en attaque qu'en défense, et m’ont aidé à mieux utiliser mon stuff. <br>Le second coaching était centré sur les gunfights : comment mieux prendre les duels, gérer les décales et optimiser l’utilisation du stuff. <br>Les sessions étaient très agréables et <strong>Rxph</strong> et <strong>Zenithtrox</strong> étaient vraiment à l’écoute. Ils prenaient le temps nécessaire, même si on dépassait l'heure prévue. Ils sont honnêtes, disponibles pour un suivi continu, et n’hésitent pas à répondre à toutes mes questions, même pour mes clips les plus fous !</p>
+            <p class="p_nom">Phantom - Platine 3</p>
+        </div>
     </div>
-    
 </body>
 </html>

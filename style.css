@@ -13,18 +13,62 @@
     }
 }
 
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    margin: 0;
+    margin-top: 14px;
+}
+
+#header_left{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #bbb;
+    font-weight: 700;
+}
+
+#header_right{
+    margin-right: 20px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    right: 0;
+}
+
+#header_right a{
+    text-decoration: none;
+    margin: 0;
+    margin-top: 18px;
+    margin-right: 12px;
+    height: fit-content;
+}
+
 a{
-    color: black;
+    color: #bbb;
 }
 body{
     margin: 0;
     font-family: "Roboto", serif;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
     line-height: 1.5;
-    background-color: #000;
+    background-color: #111;
+}
+#part_1{
+    display: flex;
+    width: 80%;
+    background-color: #111;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 h2{
     text-align: center;
@@ -34,12 +78,8 @@ h2{
     float: right;
 }
 #description{
-    width: 1000px;
-    border: 2px solid #bbb;
-    padding: 16px;
-    border-radius: 10px;
+    border-radius: 10px;    
     margin: 16px;
-    background-color: rgba(255, 255, 255, 0.8)
 }
 #description p{
     text-indent: 40px;
@@ -82,12 +122,11 @@ h2{
 }
 #acheter{
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.8);
     height: 460px;
-    border: 2px solid #bbb;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    border: 1px solid #333;
     margin-top: 16px;
 }
 #acheter *:not(img){
@@ -107,7 +146,7 @@ th{
 }
 #join{
     padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     background-color: blue;
@@ -144,6 +183,9 @@ th{
     width: 300px;
     border-radius: 20px;
 }
+#right_blocks{
+    margin-top: 32px;
+}
 #vid_background{
     position: fixed;
     width: 110vw;
@@ -156,6 +198,16 @@ th{
     gap: 0;
     filter: blur(8px) brightness(50%);
 }
+#p_part1{
+    color: white;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+    margin-top: 0;
+}
 iframe{
     margin: 0;
     padding: 0;
@@ -166,13 +218,12 @@ iframe{
 }
 #admin{
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.8);
     height: 395px;
-    border: 2px solid #bbb;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 64px;
+    border: 1px solid #333;
 }
 #admin *:not(img){
     margin: 10px;
@@ -180,7 +231,7 @@ iframe{
 
 #contact{
     padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     background-color: red;
@@ -189,4 +240,68 @@ iframe{
     position: relative;
     top: -10px;
     animation: scaleAnimation 4s infinite;
+}
+
+#part_vids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 16px;
+}
+
+#avis{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 30px;
+    color: white;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#avis div{
+    width: 40%;
+    height: fit-content;
+    background-color: #222;
+    border-radius: 5px;
+    padding-left: 20px; padding-right: 20px;
+    margin: 0;
+}
+
+.p_nom{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#avis_h2{
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#h_contact{
+    position: absolute;
+}
+
+#h_contact::before{
+    content: '';
+    background-color: #bbb;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: all 0.2s;
+}
+
+#h_contact:hover::before{
+    width: 100px;
 }

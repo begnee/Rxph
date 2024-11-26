@@ -4,11 +4,13 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Rxph & Zenithtrox School</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
+    <div id="contenu_page">
     <header>
         <span id="header_left">
             <p>RXPH & ZENITHTROX - COACHING</p>
@@ -23,7 +25,8 @@
             <div id="img_container">
                 <img id="rxph" class="img_presentations" src="assets/raph.png" alt="Raphaël 'RXPH' Lejeune" title="Raphaël 'RXPH' Lejeune">
                 <img id="zenithtrox" class="img_presentations right" src="assets/nono.png" alt="Noham 'ZENITHTROX' Saadoui" title="Noham 'ZENITHTROX' Saadoui">
-                <img id="img_selected" class="img_presentations right" src="" alt="" title="" onclick="resetimg()">
+                <img id="img_selected" class="img_presentations right" src="" alt="" title="" onclick="zoom()">
+                <button id="reset" onclick="resetimg()"></button>
             </div>
     
             <p id="pics">
@@ -139,6 +142,7 @@
             <p>J'ai fait deux coachings avec <strong>Rxph</strong> et <strong>Zenithtrox</strong>, après les avoir découverts sur les réseaux sociaux. Ce qui m’a poussé à franchir le pas, c'est leur expérience et les coachings gratuits qu’ils proposaient. La manière dont ils analysaient les parties et m’aidaient à comprendre mes erreurs m’a convaincu. <br>Le premier coaching était une analyse VOD où ils m'ont donné des conseils sur mon placement, aussi bien en attaque qu'en défense, et m’ont aidé à mieux utiliser mon stuff. <br>Le second coaching était centré sur les gunfights : comment mieux prendre les duels, gérer les décales et optimiser l’utilisation du stuff. <br>Les sessions étaient très agréables et <strong>Rxph</strong> et <strong>Zenithtrox</strong> étaient vraiment à l’écoute. Ils prenaient le temps nécessaire, même si on dépassait l'heure prévue. Ils sont honnêtes, disponibles pour un suivi continu, et n’hésitent pas à répondre à toutes mes questions, même pour mes clips les plus fous !</p>
             <p class="p_nom">Phantom - Platine 3</p>
         </div>
+    </div>
     </div>
 </body>
 </html>
